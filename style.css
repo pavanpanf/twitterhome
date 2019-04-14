@@ -20,18 +20,17 @@ div.header1 {
 	padding: 10px;
 }
 
-div.header img {
-	padding: 10px;
-}
 header h2 {
 	text-align: center;
 	margin: auto;
+	margin-left: 20px;
 	font-size: 40px;
 	color: #18adde;
 }
 div.header2 {
 	display: flex;
 	padding: 10px;
+	margin-left: -10px;
 }
 div.header3 {
 	display: flex;
@@ -39,6 +38,7 @@ div.header3 {
 }
 div.header3 a {
 	margin: auto;
+	margin-left: 20px;
 	padding: 2px 20px;
 	border: 2px solid #7a797a;
 	text-align: center;
@@ -46,12 +46,12 @@ div.header3 a {
 	text-decoration: none;
 	color: #7a797a;
 }
+
 .main-content {
 	display: flex;
 	width: 980px;
 	margin: 0 auto;
 	vertical-align: all;
-		
 }
 .sidebar1 {
 	width: 40%;
@@ -101,6 +101,12 @@ aside .sidebar3 p {
 	text-align: center;
 	vertical-align: middle;
 }
+.wrapper {
+	margin-top: 20px;
+}
+.UserName {
+	display: flex;
+}
 .UserName img {
 	padding: 10px;
 }
@@ -121,7 +127,10 @@ aside .sidebar3 p {
 	text-decoration: none;
 	margin-bottom: 50px;
 	border: solid #18adde;
-	padding: 5px 10px;
+	padding: 10px 20px;
+	position: relative;
+	top: 30px;
+	left: 30px;
 	border-radius: 15px;
 	color: #18adde;
 }
@@ -131,11 +140,9 @@ aside .sidebar3 p {
 	color: #7a797a;
 	margin-top: 10px;
 }
-
 .right-main-content {
 	width: 60%;
 	padding: 10px;
-	border: solid green;
 	margin: 10px;
 }
 .right-wrapper {
@@ -216,3 +223,72 @@ aside .sidebar3 p {
 	top: -180px;
 	right: -200px;
 }
+.block {
+	width: 100%;
+	height: 200px;
+	background-color: #7a797a;
+	border-radius: 10px;
+}
+.editblock {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 70px;
+	background-color: #fff;
+	border-radius: 10px;
+	align-items: center;
+}
+.editblock .editblock-wrappers {
+	width: 40%;
+}
+.editblock .headers {
+	padding: 20px;
+}
+.editblock .headers p{
+	font-size: 20px;
+	color: #7a797a;
+	text-align: center;
+	margin: 10px;
+}
+.editblock a{
+	margin-left: 300px;
+	padding: 2px 20px;
+	border: 2px solid #7a797a;
+	text-align: center;
+	border-radius: 15px;
+	text-decoration: none;
+	color: #7a797a;
+}
+#master-profile {
+	position: relative;
+	top: -100px;
+	left: 250px;
+}
+#sidebar2{
+	background-color: #e7efef;
+}
+#sidebar2 p {
+	margin: 5px;
+	display: inline;
+	padding: 5px;
+}
+#sidebar2 h3 {
+	margin-bottom: 0px;
+}
+#sidebar2 img{
+	position: relative;
+	top: 10px;
+}
+#main-content {
+	position: relative;
+	top: -130px;
+}
+.PhotosandVideos-body {
+	position: relative;
+	left: 5px;
+}
+.PhotosandVideos-body img {
+	padding: 5px;
+}
+
+.photoandvideos
